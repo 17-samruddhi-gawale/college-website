@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KBTCOE Nashik | Karmaveer Adv. Baburao Ganpatrao Thakare College of Engineering</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="[cdn.jsdelivr.net](https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css)"
+    rel="stylesheet"
+  />
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="[cdn.jsdelivr.net](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css)"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / HERO ===== -->
+  <header class="hero">
+    <div class="container text-center py-4">
+    <center>
+      <img src="college.jpg" alt="KBTCOE Logo" class="college-logo d-block mx-auto" />
+      <h1 class="college-title">Karmaveer Adv. Baburao Ganpatrao Thakare College of Engineering</h1>
+      <p class="college-location">Nashik, Maharashtra</p>
+    </center>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav justify-content-center flex-wrap">
+          <li class="nav-item">
+           <h2> <a href="#" class="nav-link active" data-target="home-section">Home</a></h2>
+          </li>
+          <li class="nav-item">
+           <h2><a href="#" class="nav-link" data-target="courses-section">Courses</a></h2>
+          </li>
+          <li class="nav-item">
+           <h2><a href="#" class="nav-link" data-target="faculty-section">Faculty</a></h2>
+          </li>
+          <li class="nav-item">
+           <h2><a href="#" class="nav-link" data-target="tp-section">Training &amp; Placement</a></h2>
+          </li>
+          <li class="nav-item">
+            <h2><a href="#" class="nav-link" data-target="student-section">Student Corner</a></h2>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="container my-4">
+
+    <!-- ========== HOME SECTION ========== -->
+    <section id="home-section" class="page-section active">
+
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Welcome to KBTCOE</h2>
+        <p>
+          KBTCOE Nashik is committed to providing quality technical education, innovation,
+          research and excellence in engineering. Our institute focuses on academic excellence,
+          practical knowledge and preparing students for successful careers.
+        </p>
+      </div>
+
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Major Recruiters</h2>
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <center>
+            <h2><div class="recruiter-box">TCS</div></h2>
+            </center>
+          </div>
+          <div class="col-6 col-md-3">
+            <center>
+           <h2> <div class="recruiter-box">Infosys</div></h2>
+           </center>
+          </div>
+          <div class="col-6 col-md-3">
+            <center>
+            <h2><div class="recruiter-box">Wipro</div></h2>
+            </center>
+          </div>
+          <div class="col-6 col-md-3">
+            <center>
+            <h2><div class="recruiter-box">IBM</div></h2>
+            </center>
+          </div>
+          <div class="col-6 col-md-3">
+            <center>
+            <h2><div class="recruiter-box">Accenture</div></h2>
+            </center>
+          </div>
+          <div class="col-6 col-md-3">
+            <center>
+            <h2><div class="recruiter-box">Capgemini</div></h2>
+            </center>
+          </div>
+          <div class="col-6 col-md-3">
+            <center>
+            <h2><div class="recruiter-box">Cognizant</div></h2>
+            </center>
+          </div>
+          <div class="col-6 col-md-3">
+            <center>
+            <h2><div class="recruiter-box">HCL</div></h2>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="card content-card mb-4">
+        <h4 class="section-heading">Student Registration Form</h4>
+        <form id="registrationForm" class="row g-3" novalidate>
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control"
+              id="studentName"
+              placeholder="Student Name"
+              required
+            />
+          </div>
+          <div class="col-md-3">
+            <select class="form-select" id="studentDept" required>
+              <option value="" selected disabled>Select Department</option>
+              <option>Mechanical Engineering</option>
+              <option>Computer Engineering</option>
+              <option>Information Technology</option>
+              <option>Electronics &amp; Telecommunication</option>
+              <option>Civil Engineering</option>
+              <option>Instrumentation Engineering</option>
+              <option>MBA</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <input
+              type="email"
+              class="form-control"
+              id="studentEmail"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-register w-100">Register</button>
+          </div>
+        </form>
+        <div id="formMessage" class="mt-3"></div>
+      </div>
+
+    </section>
+
+    <!-- ========== COURSES SECTION ========== -->
+    <section id="courses-section" class="page-section">
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Courses Offered</h2>
+        <p>KBTCOE offers the following undergraduate and postgraduate programs:</p>
+
+        <div class="row g-4 mt-2">
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-gear-fill course-icon"></i>
+              <h2>Mechanical Engineering</h2>
+              <h3><p class="mb-0">4-Year UG Program focused on design, thermal, and production engineering.</p></h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-laptop course-icon"></i>
+              <h2>Computer Engineering</h2>
+              <h3><p class="mb-0">4-Year UG Program covering programming, algorithms, and software systems.</p></h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-hdd-network course-icon"></i>
+              <h2>Information Technology</h2>
+              <h3><p class="mb-0">4-Year UG Program in networking, cloud computing, and data-driven systems.</p></h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-broadcast course-icon"></i>
+              <h2>Electronics &amp; Telecommunication</h2>
+              <h3><p class="mb-0">4-Year UG Program in communication systems, embedded design, and IoT.</p></h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-building course-icon"></i>
+              <h2>Civil Engineering</h2>
+              <h3><p class="mb-0">4-Year UG Program in structural design, construction, and surveying.</p></h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-cpu course-icon"></i>
+              <h2>Instrumentation Engineering</h2>
+              <h3><p class="mb-0">4-Year UG Program in control systems, sensors, and automation.</p></h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-briefcase-fill course-icon"></i>
+              <h2>MBA</h2>
+              <h3><p class="mb-0">2-Year PG Program in management, marketing, finance, and HR.</p></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FACULTY SECTION ========== -->
+    <section id="faculty-section" class="page-section">
+
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Our Esteemed Faculty</h2>
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-3">
+            <div class="faculty-card">
+              <img src="HOD sir bio.png" alt="Dr. S. A. Talekar" class="faculty-photo" />
+              <h4 class="mt-3">Dr. S. A. Talekar</h4>
+              <p class="mb-1"><strong>HOD, Associate Professor</strong></p>
+              <p class="mb-1">Ph.D. (CSE)</p>
+              <p class="mb-0 text-muted">Research: Artificial Intelligence</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="faculty-card">
+              <img src="jadhav sir.png" alt="Dr. S. P. Jadhav" class="faculty-photo" />
+              <h4 class="mt-3">Dr. S. P. Jadhav</h4>
+              <p class="mb-1"><strong>Associate Professor</strong></p>
+              <p class="mb-1">Ph.D. (Communication &amp; Computer Engineering)</p>
+              <p class="mb-0 text-muted">Research: Cloud Computing</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="faculty-card">
+              <img src="tajanpure mam.png" alt="Dr. R. R. Tajanpure" class="faculty-photo" />
+              <h4 class="mt-3">Dr. R. R. Tajanpure</h4>
+              <p class="mb-1"><strong>Assistant Professor</strong></p>
+              <p class="mb-1">Ph.D. (CSE)</p>
+              <p class="mb-0 text-muted">Research: Machine Learning</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="faculty-card">
+              <img src="Birari sir.png" alt="Mr. D. A. Birari" class="faculty-photo" />
+              <h4 class="mt-3">Mr. D. A. Birari</h4>
+              <p class="mb-1"><strong>Assistant Professor</strong></p>
+              <p class="mb-1">M.E. (Computer Engineering)</p>
+              <p class="mb-0 text-muted">Research: Data Mining</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-4">
+        <center>
+          <img src="IT department mentors.jpg" alt="KBTCOE Faculty Group" class="img-fluid rounded faculty-group-photo" />
+          <h3><p class="text-muted mt-2">Faculty &amp; Staff of KBTCOE</p></h3>
+        </center>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========== TRAINING & PLACEMENT SECTION ========== -->
+    <section id="tp-section" class="page-section">
+
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Training &amp; Placement Cell</h2>
+        <p>
+          The Training &amp; Placement Cell at KBTCOE bridges the gap between industry
+          requirements and student skills through training programs, mock interviews,
+          and campus recruitment drives with leading companies.
+        </p>
+
+        <div class="row text-center g-3 my-3">
+          <div class="col-md-4">
+            <div class="stat-box">
+              <h3>245</h3>
+              <p class="mb-0">Placements 2023-24</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="stat-box">
+              <h3>251</h3>
+              <p class="mb-0">Placements 2024-25</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="stat-box">
+              <h3>254*</h3>
+              <p class="mb-0">Placements 2025-26</p>
+            </div>
+          </div>
+        </div>
+        <p class="text-muted small">* Few campus drive results are yet to be announced.</p>
+      </div>
+
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Department Wise Placement Data</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover text-center">
+            <thead class="table-dark">
+              <tr>
+                <th>Department</th>
+                <th>2023-24</th>
+                <th>2024-25</th>
+                <th>2025-26</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Mechanical</td><td>63</td><td>52</td><td>79</td></tr>
+              <tr><td>Computer</td><td>31</td><td>34</td><td>34</td></tr>
+              <tr><td>Instrumentation</td><td>35</td><td>31</td><td>21</td></tr>
+              <tr><td>Civil</td><td>19</td><td>10</td><td>7</td></tr>
+              <tr><td>IT</td><td>35</td><td>32</td><td>23</td></tr>
+              <tr><td>E &amp; TC</td><td>32</td><td>33</td><td>34</td></tr>
+              <tr><td>MBA</td><td>30</td><td>59</td><td>56</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Placement Statistics</h2>
+        <div class="row g-4">
+          <div class="col-md-6 text-center">
+            <center>
+            <h5><img src="Placement-Record.png" alt="Placement Records Graph" class="img-fluid rounded shadow-sm" height = "500" width ="600"/></h5>
+            </center>
+          </div>
+          <div class="col-md-6 text-center">
+            <center>
+            <h5><img src="Department-wise-Placement-record.png" alt="Department Wise Placement Graph" class="img-fluid rounded shadow-sm" height = "500" width ="600" /></h5>
+            </center>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========== STUDENT CORNER SECTION ========== -->
+    <section id="student-section" class="page-section">
+      <div class="card content-card mb-4">
+        <h2 class="section-heading">Student Corner</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-journal-richtext course-icon"></i>
+              <h3>Technical Magazine &amp; Newsletter</h3>
+              <h4><p class="mb-0">Student-authored articles, project highlights, and department news.</p></h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-lightbulb course-icon"></i>
+              <h3>Innovative Teaching Methods</h3>
+              <h4><p class="mb-0">Flipped classrooms, project-based learning, and hands-on labs.</p></h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-kanban course-icon"></i>
+              <h3>Student Projects</h3>
+              <h4><p class="mb-0">Showcase of major and minor projects across all departments.</p></h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-people-fill course-icon"></i>
+              <h3>Clubs &amp; Committees</h3>
+              <h4><p class="mb-0">Technical clubs, cultural committees, and student councils.</p></h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-mortarboard-fill course-icon"></i>
+              <h3>Alumni Network</h3>
+              <h4><p class="mb-0">Connect with graduates working across top companies worldwide.</p><h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-card">
+              <i class="bi bi-chat-dots-fill course-icon"></i>
+              <h3>Grievance Redressal</h3>
+              <h4><p class="mb-0">A dedicated cell to address student concerns promptly.</p></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer text-center py-4">
+    <p class="mb-1">Karmaveer Adv. Baburao Ganpatrao Thakare College of Engineering</p>
+    <p class="mb-1">Nashik, Maharashtra | Estd. 1914</p>
+    <p class="mb-0">&copy; <span id="year"></span> KBTCOE. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="[cdn.jsdelivr.net](https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js)"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
