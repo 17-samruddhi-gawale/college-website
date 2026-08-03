@@ -19,9 +19,9 @@ body {
 }
 
 .college-logo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border-radius: 30%;
   background: #fff;
   padding: 5px;
   object-fit: contain;
@@ -34,8 +34,8 @@ body {
 }
 
 .college-location {
-  color: #f1e3ec;
-  font-weight: 500;
+  color: #ede5ea;
+  font-weight: 800;
 }
 
 .main-nav {
@@ -44,7 +44,7 @@ body {
 }
 
 .main-nav .nav-link {
-  color: #fff;
+  color: #023b3c;
   font-weight: 600;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -79,6 +79,8 @@ body {
   border-radius: 10px;
   padding: 1.75rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  max-width: 900px;
+  margin: 20px auto;
 }
 
 .section-heading {
@@ -156,8 +158,8 @@ body {
 }
 
 .faculty-photo {
-  width: 130px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid var(--pink-gradient-start);
@@ -184,6 +186,6 @@ body {
 
 /* ===== Footer ===== */
 .footer {
-  background: var(--navy-dark);
+  background: var(--yellow);
   color: #f1f1f1;
 }
